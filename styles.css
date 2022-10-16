@@ -1,0 +1,92 @@
+body {
+    background: rgb(128, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.layer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.layer1Grid {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    box-shadow: 0px 2px 4px black;
+    background: white;
+}
+.layer1Color {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.layer1ColorHeader {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+.layer1Size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.layer1SizeHeader {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+#layer1SizeBar {
+    appearance: none;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    padding: 28px 0px 28px 0px;
+    gap: 360px;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footerText {
+    color: #E5E7EB;
+    text-shadow: 2px 2px 2px black;
+    font-style: bold;
+}
+.gitLink {
+    color: #E5E7EB;
+    text-decoration: underline;
+}
+
+.gridItemStyle {
+    user-select: none;
+    border: 1px solid lightgray;
+}
+.gridItemColor {
+    background: black;
+}
